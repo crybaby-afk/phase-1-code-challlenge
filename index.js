@@ -82,7 +82,6 @@ function renderLists() {
         const listItem = document.createElement("li");
         listItem.textContent = item;
 
-        // Add "Remove" button
         const removeButton = document.createElement("button");
         removeButton.textContent = "Remove";
         removeButton.style.marginLeft = "10px";
